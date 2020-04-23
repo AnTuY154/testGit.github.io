@@ -1,0 +1,51 @@
+.list-item-pattern{
+	background-image: url(./image/1.jpg);
+}
+
+.border-list-item{
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+}
+.list-item{
+	color: blue;
+	font-weight: bold;
+	padding: 16px;
+	margin-bottom: 8px;
+}
+.background-list-item-pattern{
+   background-image: url(./image/GrungeSet.jpg);
+   background-size: 10%;
+  
+}
+.background-list-item-image{
+	background-image: url(./image/1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+/*contain fix vao khung 100%  cover thi */
+.background-list-item-paralax{
+	background-image: url(./image/1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100px;
+}
+
+.abutton{
+	background: blue;
+	text-decoration: none;
+	color: white;
+}
+
+/*inline nam cung hang vs block chiem tron 1 hang*/
+/*padding inline co hieu luc  block co het*/
+.inline1{
+ display: inline;
+}
+.block1{
+  display: block;
+}
+
+
+/* .list-1 > /item chi thang con item  + chi 1 thang tiep theo ~ thang tiep theo voi tat ca lu dang sau*/

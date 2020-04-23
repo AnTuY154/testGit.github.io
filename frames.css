@@ -1,0 +1,21 @@
+.header{
+	height: 200px;
+	background-color: #EEE;
+}
+.body .left{
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: #AAA;
+}
+.body .right{
+	float :left;
+	width: 70%;
+	height: 500px;
+	background-color: #DDD;
+}
+.body:after{
+	content: '';
+	display: block;
+	clear: both;
+}
